@@ -1,0 +1,72 @@
+{
+  "title": "Главная",
+  "newCase": "Новое дело",
+  "views": {
+    "label": "Вид главной страницы",
+    "generalLight": "General Light",
+    "kanban": "Kanban"
+  },
+  "kanban": {
+    "title": "Доска дел",
+    "years": "Годы",
+    "allYears": "Все годы",
+    "caseCount_one": "{{count}} дело",
+    "caseCount_few": "{{count}} дела",
+    "caseCount_many": "{{count}} дел",
+    "loadedCount": "загружено {{loaded}} из {{total}}",
+    "search": "Поиск по пациенту или номеру дела…",
+    "loadMore": "Загрузить ещё",
+    "loadingMore": "Загрузка…",
+    "addColumn": "Добавить колонку",
+    "editColumn": "Настроить колонку «{{name}}»",
+    "editColumnTitle": "Настройка колонки",
+    "columnName": "Название",
+    "columnColor": "Цвет",
+    "moveCasesTo": "При удалении перенести дела в",
+    "deleteColumn": "Удалить колонку",
+    "moveColumnBefore": "Переместить колонку «{{name}}» раньше",
+    "moveColumnAfter": "Переместить колонку «{{name}}» позже",
+    "empty": "Дела не найдены",
+    "emptyHint": "Измените год или поисковый запрос.",
+    "emptyColumn": "Перетащите дело в эту колонку",
+    "defaultColumns": {
+      "incoming": "Новые",
+      "working": "В работе",
+      "attention": "Требуют внимания",
+      "review": "Проверка",
+      "done": "Готово"
+    }
+  },
+  "sections": {
+    "continue": "Продолжить работу",
+    "attention": "Требует моего внимания",
+    "ready": "Готово к проверке",
+    "done": "Недавно завершено",
+    "expand": "Развернуть раздел «{{name}}»",
+    "collapse": "Свернуть раздел «{{name}}»"
+  },
+  "empty": {
+    "continue": "Сейчас нет открытых дел.",
+    "continueHint": "Новое дело появится здесь сразу после создания.",
+    "attention": "Открытых вопросов нет — все дела в порядке.",
+    "ready": "Нет дел, ожидающих вашей проверки.",
+    "done": "Завершённых дел пока нет."
+  },
+  "card": {
+    "open": "Открыть дело",
+    "updated": "обновлено {{when}}",
+    "attentionItems_one": "{{count}} вопрос к вам",
+    "attentionItems_few": "{{count}} вопроса к вам",
+    "attentionItems_many": "{{count}} вопросов к вам",
+    "contradictions_one": "{{count}} противоречие",
+    "contradictions_few": "{{count}} противоречия",
+    "contradictions_many": "{{count}} противоречий",
+    "disputed_one": "{{count}} спорный вопрос",
+    "disputed_few": "{{count}} спорных вопроса",
+    "disputed_many": "{{count}} спорных вопросов",
+    "progress": "анализ: {{percent}}%"
+  },
+  "docLang": "Язык документа",
+  "loadError": "Не удалось загрузить дела.",
+  "viewAll": "Все дела"
+}
