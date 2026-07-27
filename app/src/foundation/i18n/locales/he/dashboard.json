@@ -1,0 +1,72 @@
+{
+  "title": "ראשי",
+  "newCase": "תיק חדש",
+  "views": {
+    "label": "תצוגת דף הבית",
+    "generalLight": "General Light",
+    "kanban": "Kanban"
+  },
+  "kanban": {
+    "title": "לוח תיקים",
+    "years": "שנים",
+    "allYears": "כל השנים",
+    "caseCount_one": "תיק אחד",
+    "caseCount_two": "שני תיקים",
+    "caseCount_other": "{{count}} תיקים",
+    "loadedCount": "נטענו {{loaded}} מתוך {{total}}",
+    "search": "חיפוש לפי מטופל או מספר תיק…",
+    "loadMore": "טעינת תיקים נוספים",
+    "loadingMore": "בטעינה…",
+    "addColumn": "הוספת עמודה",
+    "editColumn": "הגדרת העמודה «{{name}}»",
+    "editColumnTitle": "הגדרות עמודה",
+    "columnName": "שם",
+    "columnColor": "צבע",
+    "moveCasesTo": "בעת מחיקה להעביר את התיקים אל",
+    "deleteColumn": "מחיקת עמודה",
+    "moveColumnBefore": "העברת העמודה «{{name}}» אחורה",
+    "moveColumnAfter": "העברת העמודה «{{name}}» קדימה",
+    "empty": "לא נמצאו תיקים",
+    "emptyHint": "שנו את השנה או את מונח החיפוש.",
+    "emptyColumn": "גררו תיק לעמודה זו",
+    "defaultColumns": {
+      "incoming": "חדשים",
+      "working": "בטיפול",
+      "attention": "דורשים תשומת לב",
+      "review": "בדיקה",
+      "done": "הושלמו"
+    }
+  },
+  "sections": {
+    "continue": "המשך עבודה",
+    "attention": "דורש את תשומת לבי",
+    "ready": "מוכן לבדיקה",
+    "done": "הושלם לאחרונה",
+    "expand": "הרחבת המדור «{{name}}»",
+    "collapse": "כיווץ המדור «{{name}}»"
+  },
+  "empty": {
+    "continue": "אין תיקים פתוחים כרגע.",
+    "continueHint": "תיק חדש יופיע כאן מרגע היצירה.",
+    "attention": "אין שאלות פתוחות — כל התיקים מטופלים.",
+    "ready": "אין תיקים שממתינים לבדיקתך.",
+    "done": "עדיין אין תיקים שהושלמו."
+  },
+  "card": {
+    "open": "פתיחת התיק",
+    "updated": "עודכן {{when}}",
+    "attentionItems_one": "נקודה אחת לעיונך",
+    "attentionItems_two": "שתי נקודות לעיונך",
+    "attentionItems_other": "{{count}} נקודות לעיונך",
+    "contradictions_one": "סתירה אחת",
+    "contradictions_two": "שתי סתירות",
+    "contradictions_other": "{{count}} סתירות",
+    "disputed_one": "שאלה אחת במחלוקת",
+    "disputed_two": "שתי שאלות במחלוקת",
+    "disputed_other": "{{count}} שאלות במחלוקת",
+    "progress": "ניתוח: {{percent}}%"
+  },
+  "docLang": "שפת המסמך",
+  "loadError": "לא ניתן לטעון את התיקים כעת.",
+  "viewAll": "לכל התיקים"
+}
