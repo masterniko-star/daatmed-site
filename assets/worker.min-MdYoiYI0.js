@@ -1,0 +1,1 @@
+var e=``+new URL(`worker.min-DfF8BO28.js`,import.meta.url).href;export{e as default};

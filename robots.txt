@@ -1,0 +1,3 @@
+# Приватная зона SaaS (docs/IP-PROTECTION.md §7): индексирование запрещено.
+User-agent: *
+Disallow: /
