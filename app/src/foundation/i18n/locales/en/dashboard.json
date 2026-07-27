@@ -1,0 +1,68 @@
+{
+  "title": "Dashboard",
+  "newCase": "New case",
+  "views": {
+    "label": "Dashboard view",
+    "generalLight": "General Light",
+    "kanban": "Kanban"
+  },
+  "kanban": {
+    "title": "Case board",
+    "years": "Years",
+    "allYears": "All years",
+    "caseCount_one": "{{count}} case",
+    "caseCount_other": "{{count}} cases",
+    "loadedCount": "{{loaded}} of {{total}} loaded",
+    "search": "Search patient or case number…",
+    "loadMore": "Load more",
+    "loadingMore": "Loading…",
+    "addColumn": "Add column",
+    "editColumn": "Configure column “{{name}}”",
+    "editColumnTitle": "Column settings",
+    "columnName": "Name",
+    "columnColor": "Color",
+    "moveCasesTo": "When deleting, move cases to",
+    "deleteColumn": "Delete column",
+    "moveColumnBefore": "Move column “{{name}}” earlier",
+    "moveColumnAfter": "Move column “{{name}}” later",
+    "empty": "No cases found",
+    "emptyHint": "Change the year or search query.",
+    "emptyColumn": "Drag a case into this column",
+    "defaultColumns": {
+      "incoming": "New",
+      "working": "In progress",
+      "attention": "Needs attention",
+      "review": "Review",
+      "done": "Done"
+    }
+  },
+  "sections": {
+    "continue": "Continue working",
+    "attention": "Needs my attention",
+    "ready": "Ready for review",
+    "done": "Recently finalized",
+    "expand": "Expand section “{{name}}”",
+    "collapse": "Collapse section “{{name}}”"
+  },
+  "empty": {
+    "continue": "No open cases right now.",
+    "continueHint": "A new case will appear here as soon as it is created.",
+    "attention": "No open questions — all cases are in order.",
+    "ready": "No cases waiting for your review.",
+    "done": "No finalized cases yet."
+  },
+  "card": {
+    "open": "Open case",
+    "updated": "updated {{when}}",
+    "attentionItems_one": "{{count}} item for your review",
+    "attentionItems_other": "{{count}} items for your review",
+    "contradictions_one": "{{count}} contradiction",
+    "contradictions_other": "{{count}} contradictions",
+    "disputed_one": "{{count}} disputed question",
+    "disputed_other": "{{count}} disputed questions",
+    "progress": "analysis: {{percent}}%"
+  },
+  "docLang": "Document language",
+  "loadError": "Could not load cases right now.",
+  "viewAll": "All cases"
+}
