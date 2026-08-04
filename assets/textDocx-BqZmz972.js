@@ -1,0 +1,1 @@
+import{r as e}from"./appMain-D_7lXuYh.js";export{e as buildTextDocx};
