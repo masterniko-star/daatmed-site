@@ -1,0 +1,1 @@
+import{r as e}from"./appMain-BOL8Rg1i.js";export{e as buildTextDocx};
