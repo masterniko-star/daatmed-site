@@ -3,6 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <!--
+      🔴 F2 (аудит 2026-08, находка 2): защитный CSP. Главный барьер против
+      исполнения кода из документа Word — санитайзер HTML в FilePreview; этот CSP
+      — второй рубеж и жёстко закрывает плагины (object-src), подмену <base>
+      (base-uri) и встраивание окна (frame-ancestors). script-src здесь оставлен
+      совместимым с dev-сервером Vite (inline/eval при HMR); жёсткий 'self' для
+      скриптов ставится на уровне main-процесса Electron для прод-сборки (session
+      CSP), где инлайн-скриптов уже нет.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' blob:; connect-src 'self' https: ws: wss:; worker-src 'self' blob:; frame-src 'self' blob:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'"
+    />
+    <!--
       Фирменный знак «dm» во вкладке браузера. Файлы производятся из
       brand/logo.png генератором scripts/gen-brand-icons.py — руками не править,
       иначе иконка сайта разойдётся с иконкой программы.
@@ -17,7 +30,7 @@
     <!-- Приватная зона SaaS: не индексировать (IP-PROTECTION §7) -->
     <meta name="robots" content="noindex, nofollow" />
     <title>DaatMed.co.il</title>
-    <script type="module" crossorigin src="./assets/index-0ybdqru8.js"></script>
+    <script type="module" crossorigin src="./assets/index-Bgu1njuR.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-cszVZCPp.css">
   </head>
   <body>
